@@ -41,5 +41,5 @@ const saveHighScore = (e) => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
     // уходим на главную
-    window.location.assign('/');
+    window.location.assign('./index.html');
 }
