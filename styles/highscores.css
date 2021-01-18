@@ -1,0 +1,24 @@
+#highScoresList {
+    list-style: none;
+}
+
+.highScoresList__item {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    border-bottom: none;
+    text-decoration: none;
+    color: #56a5eb;
+    background-color: white
+}
+
+.highScoresList__item:hover {
+    transform: scaleX(1.015);
+}
+
+.highScoresList__item:last-child {
+    margin-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #56a5eb;
+}
